@@ -58,7 +58,7 @@ AnimatorController:
   m_Name: player_run_0
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: State
+  - m_Name: state
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -86,7 +86,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: State
+    m_ConditionEvent: state
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1873903746773613193}
@@ -110,7 +110,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Player Land
-  m_Speed: 1
+  m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -791893414803621697}
@@ -138,7 +138,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: State
+    m_ConditionEvent: state
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -9029419612394377243}
