@@ -887,7 +887,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.76666665, y: 0.93333334}
+    oldSize: {x: 1.15, y: 1.4}
     newSize: {x: 0.23, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -936,6 +936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JumpForce: 12
   PlayerRigidBody: {fileID: 1826375420}
+  playerAnimator: {fileID: 1826375416}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
