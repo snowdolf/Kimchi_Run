@@ -1,12 +1,9 @@
 using UnityEngine;
 
-public class BackgroundScroll : MonoBehaviour
+public class Mover : MonoBehaviour
 {
     [Header("Settings")]
-    public float scrollSpeed;
-
-    [Header("References")]
-    public MeshRenderer meshRenderer;
+    public float moveSpeed = 1f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,6 +14,6 @@ public class BackgroundScroll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        meshRenderer.material.mainTextureOffset += new Vector2(scrollSpeed * Time.deltaTime, 0);
+        transform.position += Vector3.left * moveSpeed * Time.deltaTime;
     }
 }

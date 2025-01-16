@@ -39,4 +39,20 @@ public class Player : MonoBehaviour
             isGrounded = true;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+
+        }
+        else if (collision.CompareTag("Food"))
+        {
+
+        }
+        else if (collision.CompareTag("Golden"))
+        {
+
+        }
+    }
 }
