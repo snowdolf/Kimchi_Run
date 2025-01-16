@@ -1134,8 +1134,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpForce: 12
-  PlayerRigidBody: {fileID: 1826375420}
+  playerRigidBody: {fileID: 1826375420}
   playerAnimator: {fileID: 1826375416}
+  playerCollider: {fileID: 1826375419}
+  lives: 3
+  isInvincible: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
